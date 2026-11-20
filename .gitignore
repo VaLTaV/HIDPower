@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyInstaller & build artifacts
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs & local diagnostics
+*.log
+*.log.*
+scan_report.json
+preview_*.png
+*.tmp
+
+# Never track local user data folders
+HIDPower_path.txt
+config.json
+state.json
